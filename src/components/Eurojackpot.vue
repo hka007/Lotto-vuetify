@@ -18,20 +18,27 @@
           </v-card-subtitle>
           <v-card-text>
             <div>
+              <p class="font-weight-black pl-0 my-3">
+                Number: 
+              </p>
               <v-btn 
                 v-for="number in draw.numbers"
                 :key="number"
                 color="orange-accent-2"
-                class="ma-1" 
+                class="ma-1 mb-2"
                 rounded
                 >
                 {{ number }}
               </v-btn>
+
+              <p class="font-weight-black pl-0 my-3">
+                Additional Numbers:
+              </p>
               
               <v-btn 
                 v-for="addNumber in draw.additionalNumbers"
                 :key="addNumber"
-                color="yellow-accent-2"
+                color="yellow-accent-1"
                 class="ma-1"
                 rounded
                 >
@@ -105,4 +112,8 @@ export default defineComponent({
 .v-chip {
   width: 35px;  
   }
+
+.v-card-text{
+  
+}
 </style>
