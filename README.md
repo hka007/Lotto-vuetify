@@ -1,6 +1,8 @@
 # Lotto-vuetify
 
-This project is a Vue 3 application utilizing Vuetify for the UI components. It is set up with Vite as a build tool and Vue Router for routing.
+This project is a Vue 3 application utilizing Vuetify for the UI components. It is set up with Vite as a build tool and Vue Router for routing. The project integrates GraphQL via Apollo, following this documentation [a link](https://apollo.vuejs.org/guide-components/setup).
+
+
 
 # Prerequisites
 
